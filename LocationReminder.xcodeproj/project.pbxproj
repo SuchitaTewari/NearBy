@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EF248CE18F96EB500D770F9 /* LRToDoCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF248CC18F96EB500D770F9 /* LRToDoCellTableViewCell.m */; };
+		6EF248CF18F96EB500D770F9 /* LRToDoCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF248CD18F96EB500D770F9 /* LRToDoCellTableViewCell.xib */; };
+		9869A7DD18DEC50100EF073F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9869A7DC18DEC50100EF073F /* MapKit.framework */; };
+		9869A7E118DEFA6200EF073F /* LRSettingsSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9869A7E018DEFA6200EF073F /* LRSettingsSliderCell.m */; };
+		9869A7E318DEFA7C00EF073F /* LRSettingsSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9869A7E218DEFA7C00EF073F /* LRSettingsSliderCell.xib */; };
+		98CCAABE18D8E176000A5972 /* LRConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CCAABD18D8E176000A5972 /* LRConstant.m */; };
+		98CCAAC218D959C1000A5972 /* LRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CCAAC018D959C1000A5972 /* LRMapViewController.m */; };
+		98CCAAC318D959C1000A5972 /* LRMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CCAAC118D959C1000A5972 /* LRMapViewController.xib */; };
+		98CCAAC718D959D2000A5972 /* LRToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CCAAC518D959D2000A5972 /* LRToDoListViewController.m */; };
+		98CCAAC818D959D2000A5972 /* LRToDoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CCAAC618D959D2000A5972 /* LRToDoListViewController.xib */; };
+		98CCAACC18D959E5000A5972 /* LRSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CCAACA18D959E4000A5972 /* LRSettingsViewController.m */; };
+		98CCAACD18D959E5000A5972 /* LRSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CCAACB18D959E5000A5972 /* LRSettingsViewController.xib */; };
+		98CDC12A18D8C8D300A8DDE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDC12918D8C8D300A8DDE9 /* UIKit.framework */; };
+		98CDC12C18D8C8D300A8DDE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDC12B18D8C8D300A8DDE9 /* Foundation.framework */; };
+		98CDC12E18D8C8D300A8DDE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDC12D18D8C8D300A8DDE9 /* CoreGraphics.framework */; };
+		98CDC13018D8C8D300A8DDE9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDC12F18D8C8D300A8DDE9 /* CoreData.framework */; };
+		98CDC13618D8C8D300A8DDE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC13418D8C8D300A8DDE9 /* InfoPlist.strings */; };
+		98CDC13818D8C8D300A8DDE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC13718D8C8D300A8DDE9 /* main.m */; };
+		98CDC13C18D8C8D300A8DDE9 /* LRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC13B18D8C8D300A8DDE9 /* LRAppDelegate.m */; };
+		98CDC13E18D8C8D300A8DDE9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC13D18D8C8D300A8DDE9 /* Default.png */; };
+		98CDC14018D8C8D300A8DDE9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC13F18D8C8D300A8DDE9 /* Default@2x.png */; };
+		98CDC14218D8C8D300A8DDE9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC14118D8C8D300A8DDE9 /* Default-568h@2x.png */; };
+		98CDC14518D8C8D300A8DDE9 /* LocationReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC14318D8C8D300A8DDE9 /* LocationReminder.xcdatamodeld */; };
+		98CDC14E18D8C8D300A8DDE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDC12918D8C8D300A8DDE9 /* UIKit.framework */; };
+		98CDC14F18D8C8D300A8DDE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDC12B18D8C8D300A8DDE9 /* Foundation.framework */; };
+		98CDC15018D8C8D300A8DDE9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CDC12F18D8C8D300A8DDE9 /* CoreData.framework */; };
+		98CDC15818D8C8D300A8DDE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC15618D8C8D300A8DDE9 /* InfoPlist.strings */; };
+		98CDC15B18D8C8D300A8DDE9 /* LocationReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC15A18D8C8D300A8DDE9 /* LocationReminderTests.m */; };
+		98CDC16718D8C95800A8DDE9 /* LRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC16518D8C95800A8DDE9 /* LRBaseViewController.m */; };
+		98CDC16818D8C95800A8DDE9 /* LRBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC16618D8C95800A8DDE9 /* LRBaseViewController.xib */; };
+		98CDC16D18D8C97B00A8DDE9 /* LRCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC16B18D8C97B00A8DDE9 /* LRCategoryViewController.m */; };
+		98CDC16E18D8C97B00A8DDE9 /* LRCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC16C18D8C97B00A8DDE9 /* LRCategoryViewController.xib */; };
+		B80891B118E323F00036AB53 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80891B018E323F00036AB53 /* AddressBook.framework */; };
+		B80891B518E330BD0036AB53 /* icon-disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = B80891B418E330BD0036AB53 /* icon-disclosure.png */; };
+		B80891BC18E333320036AB53 /* LRDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B80891BB18E333320036AB53 /* LRDataHandler.m */; };
+		B80891BF18E335FB0036AB53 /* LRReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = B80891BE18E335FB0036AB53 /* LRReminders.m */; };
+		B80891C318E336A10036AB53 /* LRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80891C118E336A10036AB53 /* LRReminderViewController.m */; };
+		B80891C418E336A10036AB53 /* LRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80891C218E336A10036AB53 /* LRReminderViewController.xib */; };
+		B883B2D418E45DA700FD1A24 /* aeroplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C018E45DA700FD1A24 /* aeroplane@2x.png */; };
+		B883B2D518E45DA700FD1A24 /* airport@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C118E45DA700FD1A24 /* airport@2x.png */; };
+		B883B2D618E45DA700FD1A24 /* atm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C218E45DA700FD1A24 /* atm@2x.png */; };
+		B883B2D718E45DA700FD1A24 /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C318E45DA700FD1A24 /* bar@2x.png */; };
+		B883B2D818E45DA700FD1A24 /* bus_station@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C418E45DA700FD1A24 /* bus_station@2x.png */; };
+		B883B2DA18E45DA700FD1A24 /* car_repair@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C618E45DA700FD1A24 /* car_repair@2x.png */; };
+		B883B2DB18E45DA700FD1A24 /* hospital@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C718E45DA700FD1A24 /* hospital@2x.png */; };
+		B883B2DC18E45DA700FD1A24 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C818E45DA700FD1A24 /* map@2x.png */; };
+		B883B2DD18E45DA700FD1A24 /* movie_theater@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2C918E45DA700FD1A24 /* movie_theater@2x.png */; };
+		B883B2DE18E45DA700FD1A24 /* park@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2CA18E45DA700FD1A24 /* park@2x.png */; };
+		B883B2DF18E45DA700FD1A24 /* police@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2CB18E45DA700FD1A24 /* police@2x.png */; };
+		B883B2E018E45DA700FD1A24 /* post_office@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2CC18E45DA700FD1A24 /* post_office@2x.png */; };
+		B883B2E118E45DA700FD1A24 /* restaurant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2CD18E45DA700FD1A24 /* restaurant@2x.png */; };
+		B883B2E218E45DA700FD1A24 /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2CE18E45DA700FD1A24 /* setting@2x.png */; };
+		B883B2E318E45DA700FD1A24 /* shopping_mall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2CF18E45DA700FD1A24 /* shopping_mall@2x.png */; };
+		B883B2E418E45DA700FD1A24 /* temple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2D018E45DA700FD1A24 /* temple@2x.png */; };
+		B883B2E518E45DA700FD1A24 /* todolist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2D118E45DA700FD1A24 /* todolist@2x.png */; };
+		B883B2E618E45DA700FD1A24 /* university@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2D218E45DA700FD1A24 /* university@2x.png */; };
+		B883B2E718E45DA700FD1A24 /* zoo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B883B2D318E45DA700FD1A24 /* zoo@2x.png */; };
+		B8D76BA118E4AC020039E173 /* LRInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D76B9F18E4AC020039E173 /* LRInputViewController.m */; };
+		B8D76BA218E4AC020039E173 /* LRInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8D76BA018E4AC020039E173 /* LRInputViewController.xib */; };
+		BD3E05FB18E2E38300C25C4C /* cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3E05FA18E2E38300C25C4C /* cafe@2x.png */; };
+		BD48438418FE587D00F66F82 /* LRCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD48438318FE587D00F66F82 /* LRCategoryCell.xib */; };
+		BD48438618FE5AB100F66F82 /* food@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD48438518FE5AB100F66F82 /* food@2x.png */; };
+		BD48438F18FEBDC500F66F82 /* LRListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD48438D18FEBDC500F66F82 /* LRListViewController.m */; };
+		BD48439018FEBDC500F66F82 /* LRListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD48438E18FEBDC500F66F82 /* LRListViewController.xib */; };
+		BD48439318FEC86000F66F82 /* LRListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD48439218FEC86000F66F82 /* LRListCell.m */; };
+		BDAD518018FFD9E3000EFD4A /* LRListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDAD517F18FFD9E3000EFD4A /* LRListCell.xib */; };
+		BDAE2F2D18E06705005864BC /* LRMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAE2F2C18E06705005864BC /* LRMapView.m */; };
+		BDB1773F18E413D20004EEA6 /* LRCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB1773E18E413D20004EEA6 /* LRCategoryCell.m */; };
+		BDBEE29D18E15F6400FEC330 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEE29C18E15F6400FEC330 /* CoreLocation.framework */; };
+		BDBEE29F18E18D1400FEC330 /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDBEE29E18E18D1400FEC330 /* Categories.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CDC15118D8C8D300A8DDE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CDC11E18D8C8D300A8DDE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CDC12518D8C8D300A8DDE9;
+			remoteInfo = LocationReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EF248CB18F96EB500D770F9 /* LRToDoCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRToDoCellTableViewCell.h; sourceTree = "<group>"; };
+		6EF248CC18F96EB500D770F9 /* LRToDoCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRToDoCellTableViewCell.m; sourceTree = "<group>"; };
+		6EF248CD18F96EB500D770F9 /* LRToDoCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRToDoCellTableViewCell.xib; sourceTree = "<group>"; };
+		9869A7DC18DEC50100EF073F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9869A7DF18DEFA6200EF073F /* LRSettingsSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSettingsSliderCell.h; sourceTree = "<group>"; };
+		9869A7E018DEFA6200EF073F /* LRSettingsSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSettingsSliderCell.m; sourceTree = "<group>"; };
+		9869A7E218DEFA7C00EF073F /* LRSettingsSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRSettingsSliderCell.xib; sourceTree = "<group>"; };
+		98CCAABC18D8E176000A5972 /* LRConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRConstant.h; sourceTree = "<group>"; };
+		98CCAABD18D8E176000A5972 /* LRConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRConstant.m; sourceTree = "<group>"; };
+		98CCAABF18D959C1000A5972 /* LRMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMapViewController.h; sourceTree = "<group>"; };
+		98CCAAC018D959C1000A5972 /* LRMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMapViewController.m; sourceTree = "<group>"; };
+		98CCAAC118D959C1000A5972 /* LRMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRMapViewController.xib; sourceTree = "<group>"; };
+		98CCAAC418D959D2000A5972 /* LRToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRToDoListViewController.h; sourceTree = "<group>"; };
+		98CCAAC518D959D2000A5972 /* LRToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRToDoListViewController.m; sourceTree = "<group>"; };
+		98CCAAC618D959D2000A5972 /* LRToDoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRToDoListViewController.xib; sourceTree = "<group>"; };
+		98CCAAC918D959E4000A5972 /* LRSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSettingsViewController.h; sourceTree = "<group>"; };
+		98CCAACA18D959E4000A5972 /* LRSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSettingsViewController.m; sourceTree = "<group>"; };
+		98CCAACB18D959E5000A5972 /* LRSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRSettingsViewController.xib; sourceTree = "<group>"; };
+		98CDC12618D8C8D300A8DDE9 /* LocationReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CDC12918D8C8D300A8DDE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98CDC12B18D8C8D300A8DDE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98CDC12D18D8C8D300A8DDE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98CDC12F18D8C8D300A8DDE9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98CDC13318D8C8D300A8DDE9 /* LocationReminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationReminder-Info.plist"; sourceTree = "<group>"; };
+		98CDC13518D8C8D300A8DDE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98CDC13718D8C8D300A8DDE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98CDC13918D8C8D300A8DDE9 /* LocationReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocationReminder-Prefix.pch"; sourceTree = "<group>"; };
+		98CDC13A18D8C8D300A8DDE9 /* LRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRAppDelegate.h; sourceTree = "<group>"; };
+		98CDC13B18D8C8D300A8DDE9 /* LRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRAppDelegate.m; sourceTree = "<group>"; };
+		98CDC13D18D8C8D300A8DDE9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		98CDC13F18D8C8D300A8DDE9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		98CDC14118D8C8D300A8DDE9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		98CDC14418D8C8D300A8DDE9 /* LocationReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationReminder.xcdatamodel; sourceTree = "<group>"; };
+		98CDC14B18D8C8D300A8DDE9 /* LocationReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CDC15518D8C8D300A8DDE9 /* LocationReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationReminderTests-Info.plist"; sourceTree = "<group>"; };
+		98CDC15718D8C8D300A8DDE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98CDC15918D8C8D300A8DDE9 /* LocationReminderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationReminderTests.h; sourceTree = "<group>"; };
+		98CDC15A18D8C8D300A8DDE9 /* LocationReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationReminderTests.m; sourceTree = "<group>"; };
+		98CDC16418D8C95800A8DDE9 /* LRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRBaseViewController.h; sourceTree = "<group>"; };
+		98CDC16518D8C95800A8DDE9 /* LRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRBaseViewController.m; sourceTree = "<group>"; };
+		98CDC16618D8C95800A8DDE9 /* LRBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRBaseViewController.xib; sourceTree = "<group>"; };
+		98CDC16A18D8C97B00A8DDE9 /* LRCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRCategoryViewController.h; sourceTree = "<group>"; };
+		98CDC16B18D8C97B00A8DDE9 /* LRCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRCategoryViewController.m; sourceTree = "<group>"; };
+		98CDC16C18D8C97B00A8DDE9 /* LRCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRCategoryViewController.xib; sourceTree = "<group>"; };
+		B80891B018E323F00036AB53 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B80891B418E330BD0036AB53 /* icon-disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-disclosure.png"; path = "Resources/icon-disclosure.png"; sourceTree = "<group>"; };
+		B80891BA18E333320036AB53 /* LRDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDataHandler.h; sourceTree = "<group>"; };
+		B80891BB18E333320036AB53 /* LRDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDataHandler.m; sourceTree = "<group>"; };
+		B80891BD18E335FB0036AB53 /* LRReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRReminders.h; sourceTree = "<group>"; };
+		B80891BE18E335FB0036AB53 /* LRReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRReminders.m; sourceTree = "<group>"; };
+		B80891C018E336A10036AB53 /* LRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRReminderViewController.h; sourceTree = "<group>"; };
+		B80891C118E336A10036AB53 /* LRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRReminderViewController.m; sourceTree = "<group>"; };
+		B80891C218E336A10036AB53 /* LRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRReminderViewController.xib; sourceTree = "<group>"; };
+		B883B2C018E45DA700FD1A24 /* aeroplane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "aeroplane@2x.png"; path = "Resources/aeroplane@2x.png"; sourceTree = "<group>"; };
+		B883B2C118E45DA700FD1A24 /* airport@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "airport@2x.png"; path = "Resources/airport@2x.png"; sourceTree = "<group>"; };
+		B883B2C218E45DA700FD1A24 /* atm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "atm@2x.png"; path = "Resources/atm@2x.png"; sourceTree = "<group>"; };
+		B883B2C318E45DA700FD1A24 /* bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar@2x.png"; path = "Resources/bar@2x.png"; sourceTree = "<group>"; };
+		B883B2C418E45DA700FD1A24 /* bus_station@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bus_station@2x.png"; path = "Resources/bus_station@2x.png"; sourceTree = "<group>"; };
+		B883B2C618E45DA700FD1A24 /* car_repair@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "car_repair@2x.png"; path = "Resources/car_repair@2x.png"; sourceTree = "<group>"; };
+		B883B2C718E45DA700FD1A24 /* hospital@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hospital@2x.png"; path = "Resources/hospital@2x.png"; sourceTree = "<group>"; };
+		B883B2C818E45DA700FD1A24 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map@2x.png"; path = "Resources/map@2x.png"; sourceTree = "<group>"; };
+		B883B2C918E45DA700FD1A24 /* movie_theater@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "movie_theater@2x.png"; path = "Resources/movie_theater@2x.png"; sourceTree = "<group>"; };
+		B883B2CA18E45DA700FD1A24 /* park@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "park@2x.png"; path = "Resources/park@2x.png"; sourceTree = "<group>"; };
+		B883B2CB18E45DA700FD1A24 /* police@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "police@2x.png"; path = "Resources/police@2x.png"; sourceTree = "<group>"; };
+		B883B2CC18E45DA700FD1A24 /* post_office@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "post_office@2x.png"; path = "Resources/post_office@2x.png"; sourceTree = "<group>"; };
+		B883B2CD18E45DA700FD1A24 /* restaurant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "restaurant@2x.png"; path = "Resources/restaurant@2x.png"; sourceTree = "<group>"; };
+		B883B2CE18E45DA700FD1A24 /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting@2x.png"; path = "Resources/setting@2x.png"; sourceTree = "<group>"; };
+		B883B2CF18E45DA700FD1A24 /* shopping_mall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shopping_mall@2x.png"; path = "Resources/shopping_mall@2x.png"; sourceTree = "<group>"; };
+		B883B2D018E45DA700FD1A24 /* temple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "temple@2x.png"; path = "Resources/temple@2x.png"; sourceTree = "<group>"; };
+		B883B2D118E45DA700FD1A24 /* todolist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "todolist@2x.png"; path = "Resources/todolist@2x.png"; sourceTree = "<group>"; };
+		B883B2D218E45DA700FD1A24 /* university@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "university@2x.png"; path = "Resources/university@2x.png"; sourceTree = "<group>"; };
+		B883B2D318E45DA700FD1A24 /* zoo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zoo@2x.png"; path = "Resources/zoo@2x.png"; sourceTree = "<group>"; };
+		B8D76B9E18E4AC020039E173 /* LRInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRInputViewController.h; sourceTree = "<group>"; };
+		B8D76B9F18E4AC020039E173 /* LRInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRInputViewController.m; sourceTree = "<group>"; };
+		B8D76BA018E4AC020039E173 /* LRInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRInputViewController.xib; sourceTree = "<group>"; };
+		BD3E05FA18E2E38300C25C4C /* cafe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cafe@2x.png"; path = "Resources/cafe@2x.png"; sourceTree = "<group>"; };
+		BD48438318FE587D00F66F82 /* LRCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRCategoryCell.xib; sourceTree = "<group>"; };
+		BD48438518FE5AB100F66F82 /* food@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "food@2x.png"; path = "Resources/food@2x.png"; sourceTree = "<group>"; };
+		BD48438C18FEBDC500F66F82 /* LRListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRListViewController.h; sourceTree = "<group>"; };
+		BD48438D18FEBDC500F66F82 /* LRListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRListViewController.m; sourceTree = "<group>"; };
+		BD48438E18FEBDC500F66F82 /* LRListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRListViewController.xib; sourceTree = "<group>"; };
+		BD48439118FEC86000F66F82 /* LRListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRListCell.h; sourceTree = "<group>"; };
+		BD48439218FEC86000F66F82 /* LRListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRListCell.m; sourceTree = "<group>"; };
+		BDAD517F18FFD9E3000EFD4A /* LRListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRListCell.xib; sourceTree = "<group>"; };
+		BDAE2F2B18E06705005864BC /* LRMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMapView.h; sourceTree = "<group>"; };
+		BDAE2F2C18E06705005864BC /* LRMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMapView.m; sourceTree = "<group>"; };
+		BDB1773D18E413D20004EEA6 /* LRCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRCategoryCell.h; sourceTree = "<group>"; };
+		BDB1773E18E413D20004EEA6 /* LRCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRCategoryCell.m; sourceTree = "<group>"; };
+		BDBEE29C18E15F6400FEC330 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BDBEE29E18E18D1400FEC330 /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CDC12318D8C8D300A8DDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80891B118E323F00036AB53 /* AddressBook.framework in Frameworks */,
+				BDBEE29D18E15F6400FEC330 /* CoreLocation.framework in Frameworks */,
+				9869A7DD18DEC50100EF073F /* MapKit.framework in Frameworks */,
+				98CDC12A18D8C8D300A8DDE9 /* UIKit.framework in Frameworks */,
+				98CDC12C18D8C8D300A8DDE9 /* Foundation.framework in Frameworks */,
+				98CDC12E18D8C8D300A8DDE9 /* CoreGraphics.framework in Frameworks */,
+				98CDC13018D8C8D300A8DDE9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CDC14718D8C8D300A8DDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CDC14E18D8C8D300A8DDE9 /* UIKit.framework in Frameworks */,
+				98CDC14F18D8C8D300A8DDE9 /* Foundation.framework in Frameworks */,
+				98CDC15018D8C8D300A8DDE9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9869A7DE18DEF9FE00EF073F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BDB1773D18E413D20004EEA6 /* LRCategoryCell.h */,
+				BDB1773E18E413D20004EEA6 /* LRCategoryCell.m */,
+				BD48438318FE587D00F66F82 /* LRCategoryCell.xib */,
+				9869A7DF18DEFA6200EF073F /* LRSettingsSliderCell.h */,
+				9869A7E018DEFA6200EF073F /* LRSettingsSliderCell.m */,
+				9869A7E218DEFA7C00EF073F /* LRSettingsSliderCell.xib */,
+				6EF248CB18F96EB500D770F9 /* LRToDoCellTableViewCell.h */,
+				6EF248CC18F96EB500D770F9 /* LRToDoCellTableViewCell.m */,
+				6EF248CD18F96EB500D770F9 /* LRToDoCellTableViewCell.xib */,
+				BD48439118FEC86000F66F82 /* LRListCell.h */,
+				BD48439218FEC86000F66F82 /* LRListCell.m */,
+				BDAD517F18FFD9E3000EFD4A /* LRListCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		98CCAABB18D8E153000A5972 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				98CCAABD18D8E176000A5972 /* LRConstant.m */,
+				98CCAABC18D8E176000A5972 /* LRConstant.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		98CDC11D18D8C8D300A8DDE9 = {
+			isa = PBXGroup;
+			children = (
+				98CDC13118D8C8D300A8DDE9 /* LocationReminder */,
+				98CDC15318D8C8D300A8DDE9 /* LocationReminderTests */,
+				98CDC12818D8C8D300A8DDE9 /* Frameworks */,
+				98CDC12718D8C8D300A8DDE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CDC12718D8C8D300A8DDE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC12618D8C8D300A8DDE9 /* LocationReminder.app */,
+				98CDC14B18D8C8D300A8DDE9 /* LocationReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CDC12818D8C8D300A8DDE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80891B018E323F00036AB53 /* AddressBook.framework */,
+				BDBEE29C18E15F6400FEC330 /* CoreLocation.framework */,
+				9869A7DC18DEC50100EF073F /* MapKit.framework */,
+				98CDC12918D8C8D300A8DDE9 /* UIKit.framework */,
+				98CDC12B18D8C8D300A8DDE9 /* Foundation.framework */,
+				98CDC12D18D8C8D300A8DDE9 /* CoreGraphics.framework */,
+				98CDC12F18D8C8D300A8DDE9 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98CDC13118D8C8D300A8DDE9 /* LocationReminder */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC13A18D8C8D300A8DDE9 /* LRAppDelegate.h */,
+				98CDC13B18D8C8D300A8DDE9 /* LRAppDelegate.m */,
+				98CDC16418D8C95800A8DDE9 /* LRBaseViewController.h */,
+				98CDC16518D8C95800A8DDE9 /* LRBaseViewController.m */,
+				98CDC16618D8C95800A8DDE9 /* LRBaseViewController.xib */,
+				98CDC16918D8C96300A8DDE9 /* Classes */,
+				98CDC13218D8C8D300A8DDE9 /* Supporting Files */,
+			);
+			path = LocationReminder;
+			sourceTree = "<group>";
+		};
+		98CDC13218D8C8D300A8DDE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC13318D8C8D300A8DDE9 /* LocationReminder-Info.plist */,
+				BDBEE29E18E18D1400FEC330 /* Categories.plist */,
+				98CDC13418D8C8D300A8DDE9 /* InfoPlist.strings */,
+				98CDC13718D8C8D300A8DDE9 /* main.m */,
+				98CDC13918D8C8D300A8DDE9 /* LocationReminder-Prefix.pch */,
+				98CDC13D18D8C8D300A8DDE9 /* Default.png */,
+				98CDC13F18D8C8D300A8DDE9 /* Default@2x.png */,
+				98CDC14118D8C8D300A8DDE9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CDC15318D8C8D300A8DDE9 /* LocationReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC15918D8C8D300A8DDE9 /* LocationReminderTests.h */,
+				98CDC15A18D8C8D300A8DDE9 /* LocationReminderTests.m */,
+				98CDC15418D8C8D300A8DDE9 /* Supporting Files */,
+			);
+			path = LocationReminderTests;
+			sourceTree = "<group>";
+		};
+		98CDC15418D8C8D300A8DDE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC15518D8C8D300A8DDE9 /* LocationReminderTests-Info.plist */,
+				98CDC15618D8C8D300A8DDE9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CDC16918D8C96300A8DDE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B80891B618E3326B0036AB53 /* CoreData */,
+				BD3E05F918E2E0D700C25C4C /* Resources */,
+				9869A7DE18DEF9FE00EF073F /* TableViewCell */,
+				98CCAABB18D8E153000A5972 /* Common */,
+				98CDC16A18D8C97B00A8DDE9 /* LRCategoryViewController.h */,
+				98CDC16B18D8C97B00A8DDE9 /* LRCategoryViewController.m */,
+				98CDC16C18D8C97B00A8DDE9 /* LRCategoryViewController.xib */,
+				BD48438C18FEBDC500F66F82 /* LRListViewController.h */,
+				BD48438D18FEBDC500F66F82 /* LRListViewController.m */,
+				BD48438E18FEBDC500F66F82 /* LRListViewController.xib */,
+				98CCAABF18D959C1000A5972 /* LRMapViewController.h */,
+				98CCAAC018D959C1000A5972 /* LRMapViewController.m */,
+				98CCAAC118D959C1000A5972 /* LRMapViewController.xib */,
+				B80891C018E336A10036AB53 /* LRReminderViewController.h */,
+				B80891C118E336A10036AB53 /* LRReminderViewController.m */,
+				B80891C218E336A10036AB53 /* LRReminderViewController.xib */,
+				B8D76B9E18E4AC020039E173 /* LRInputViewController.h */,
+				B8D76B9F18E4AC020039E173 /* LRInputViewController.m */,
+				B8D76BA018E4AC020039E173 /* LRInputViewController.xib */,
+				BDAE2F2B18E06705005864BC /* LRMapView.h */,
+				BDAE2F2C18E06705005864BC /* LRMapView.m */,
+				98CCAAC418D959D2000A5972 /* LRToDoListViewController.h */,
+				98CCAAC518D959D2000A5972 /* LRToDoListViewController.m */,
+				98CCAAC618D959D2000A5972 /* LRToDoListViewController.xib */,
+				98CCAAC918D959E4000A5972 /* LRSettingsViewController.h */,
+				98CCAACA18D959E4000A5972 /* LRSettingsViewController.m */,
+				98CCAACB18D959E5000A5972 /* LRSettingsViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B80891B618E3326B0036AB53 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B80891BD18E335FB0036AB53 /* LRReminders.h */,
+				B80891BE18E335FB0036AB53 /* LRReminders.m */,
+				98CDC14318D8C8D300A8DDE9 /* LocationReminder.xcdatamodeld */,
+				B80891BA18E333320036AB53 /* LRDataHandler.h */,
+				B80891BB18E333320036AB53 /* LRDataHandler.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		BD3E05F918E2E0D700C25C4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E05FA18E2E38300C25C4C /* cafe@2x.png */,
+				B80891B418E330BD0036AB53 /* icon-disclosure.png */,
+				B883B2C018E45DA700FD1A24 /* aeroplane@2x.png */,
+				B883B2C118E45DA700FD1A24 /* airport@2x.png */,
+				B883B2C218E45DA700FD1A24 /* atm@2x.png */,
+				BD48438518FE5AB100F66F82 /* food@2x.png */,
+				B883B2C318E45DA700FD1A24 /* bar@2x.png */,
+				B883B2C418E45DA700FD1A24 /* bus_station@2x.png */,
+				B883B2C618E45DA700FD1A24 /* car_repair@2x.png */,
+				B883B2C718E45DA700FD1A24 /* hospital@2x.png */,
+				B883B2C818E45DA700FD1A24 /* map@2x.png */,
+				B883B2C918E45DA700FD1A24 /* movie_theater@2x.png */,
+				B883B2CA18E45DA700FD1A24 /* park@2x.png */,
+				B883B2CB18E45DA700FD1A24 /* police@2x.png */,
+				B883B2CC18E45DA700FD1A24 /* post_office@2x.png */,
+				B883B2CD18E45DA700FD1A24 /* restaurant@2x.png */,
+				B883B2CE18E45DA700FD1A24 /* setting@2x.png */,
+				B883B2CF18E45DA700FD1A24 /* shopping_mall@2x.png */,
+				B883B2D018E45DA700FD1A24 /* temple@2x.png */,
+				B883B2D118E45DA700FD1A24 /* todolist@2x.png */,
+				B883B2D218E45DA700FD1A24 /* university@2x.png */,
+				B883B2D318E45DA700FD1A24 /* zoo@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CDC12518D8C8D300A8DDE9 /* LocationReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CDC15E18D8C8D300A8DDE9 /* Build configuration list for PBXNativeTarget "LocationReminder" */;
+			buildPhases = (
+				98CDC12218D8C8D300A8DDE9 /* Sources */,
+				98CDC12318D8C8D300A8DDE9 /* Frameworks */,
+				98CDC12418D8C8D300A8DDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationReminder;
+			productName = LocationReminder;
+			productReference = 98CDC12618D8C8D300A8DDE9 /* LocationReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CDC14A18D8C8D300A8DDE9 /* LocationReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CDC16118D8C8D300A8DDE9 /* Build configuration list for PBXNativeTarget "LocationReminderTests" */;
+			buildPhases = (
+				98CDC14618D8C8D300A8DDE9 /* Sources */,
+				98CDC14718D8C8D300A8DDE9 /* Frameworks */,
+				98CDC14818D8C8D300A8DDE9 /* Resources */,
+				98CDC14918D8C8D300A8DDE9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CDC15218D8C8D300A8DDE9 /* PBXTargetDependency */,
+			);
+			name = LocationReminderTests;
+			productName = LocationReminderTests;
+			productReference = 98CDC14B18D8C8D300A8DDE9 /* LocationReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CDC11E18D8C8D300A8DDE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LR;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Suchita;
+			};
+			buildConfigurationList = 98CDC12118D8C8D300A8DDE9 /* Build configuration list for PBXProject "LocationReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98CDC11D18D8C8D300A8DDE9;
+			productRefGroup = 98CDC12718D8C8D300A8DDE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CDC12518D8C8D300A8DDE9 /* LocationReminder */,
+				98CDC14A18D8C8D300A8DDE9 /* LocationReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CDC12418D8C8D300A8DDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80891C418E336A10036AB53 /* LRReminderViewController.xib in Resources */,
+				98CDC13618D8C8D300A8DDE9 /* InfoPlist.strings in Resources */,
+				B883B2E218E45DA700FD1A24 /* setting@2x.png in Resources */,
+				B883B2DC18E45DA700FD1A24 /* map@2x.png in Resources */,
+				B883B2D718E45DA700FD1A24 /* bar@2x.png in Resources */,
+				98CDC13E18D8C8D300A8DDE9 /* Default.png in Resources */,
+				B883B2E018E45DA700FD1A24 /* post_office@2x.png in Resources */,
+				B883B2DD18E45DA700FD1A24 /* movie_theater@2x.png in Resources */,
+				BD3E05FB18E2E38300C25C4C /* cafe@2x.png in Resources */,
+				B883B2E418E45DA700FD1A24 /* temple@2x.png in Resources */,
+				B883B2D618E45DA700FD1A24 /* atm@2x.png in Resources */,
+				98CDC14018D8C8D300A8DDE9 /* Default@2x.png in Resources */,
+				98CDC14218D8C8D300A8DDE9 /* Default-568h@2x.png in Resources */,
+				B883B2DE18E45DA700FD1A24 /* park@2x.png in Resources */,
+				B883B2E718E45DA700FD1A24 /* zoo@2x.png in Resources */,
+				98CDC16818D8C95800A8DDE9 /* LRBaseViewController.xib in Resources */,
+				9869A7E318DEFA7C00EF073F /* LRSettingsSliderCell.xib in Resources */,
+				B883B2E118E45DA700FD1A24 /* restaurant@2x.png in Resources */,
+				6EF248CF18F96EB500D770F9 /* LRToDoCellTableViewCell.xib in Resources */,
+				BDBEE29F18E18D1400FEC330 /* Categories.plist in Resources */,
+				B8D76BA218E4AC020039E173 /* LRInputViewController.xib in Resources */,
+				B883B2E318E45DA700FD1A24 /* shopping_mall@2x.png in Resources */,
+				B883B2DA18E45DA700FD1A24 /* car_repair@2x.png in Resources */,
+				B883B2D818E45DA700FD1A24 /* bus_station@2x.png in Resources */,
+				B80891B518E330BD0036AB53 /* icon-disclosure.png in Resources */,
+				B883B2D418E45DA700FD1A24 /* aeroplane@2x.png in Resources */,
+				98CDC16E18D8C97B00A8DDE9 /* LRCategoryViewController.xib in Resources */,
+				B883B2D518E45DA700FD1A24 /* airport@2x.png in Resources */,
+				BD48438618FE5AB100F66F82 /* food@2x.png in Resources */,
+				BDAD518018FFD9E3000EFD4A /* LRListCell.xib in Resources */,
+				98CCAAC318D959C1000A5972 /* LRMapViewController.xib in Resources */,
+				BD48439018FEBDC500F66F82 /* LRListViewController.xib in Resources */,
+				B883B2DF18E45DA700FD1A24 /* police@2x.png in Resources */,
+				98CCAAC818D959D2000A5972 /* LRToDoListViewController.xib in Resources */,
+				B883B2DB18E45DA700FD1A24 /* hospital@2x.png in Resources */,
+				B883B2E618E45DA700FD1A24 /* university@2x.png in Resources */,
+				B883B2E518E45DA700FD1A24 /* todolist@2x.png in Resources */,
+				98CCAACD18D959E5000A5972 /* LRSettingsViewController.xib in Resources */,
+				BD48438418FE587D00F66F82 /* LRCategoryCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CDC14818D8C8D300A8DDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CDC15818D8C8D300A8DDE9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98CDC14918D8C8D300A8DDE9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CDC12218D8C8D300A8DDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CDC13818D8C8D300A8DDE9 /* main.m in Sources */,
+				B80891BC18E333320036AB53 /* LRDataHandler.m in Sources */,
+				BDB1773F18E413D20004EEA6 /* LRCategoryCell.m in Sources */,
+				98CDC13C18D8C8D300A8DDE9 /* LRAppDelegate.m in Sources */,
+				98CDC14518D8C8D300A8DDE9 /* LocationReminder.xcdatamodeld in Sources */,
+				98CDC16718D8C95800A8DDE9 /* LRBaseViewController.m in Sources */,
+				BD48438F18FEBDC500F66F82 /* LRListViewController.m in Sources */,
+				98CDC16D18D8C97B00A8DDE9 /* LRCategoryViewController.m in Sources */,
+				98CCAABE18D8E176000A5972 /* LRConstant.m in Sources */,
+				BDAE2F2D18E06705005864BC /* LRMapView.m in Sources */,
+				BD48439318FEC86000F66F82 /* LRListCell.m in Sources */,
+				B80891C318E336A10036AB53 /* LRReminderViewController.m in Sources */,
+				B80891BF18E335FB0036AB53 /* LRReminders.m in Sources */,
+				98CCAAC218D959C1000A5972 /* LRMapViewController.m in Sources */,
+				9869A7E118DEFA6200EF073F /* LRSettingsSliderCell.m in Sources */,
+				6EF248CE18F96EB500D770F9 /* LRToDoCellTableViewCell.m in Sources */,
+				98CCAAC718D959D2000A5972 /* LRToDoListViewController.m in Sources */,
+				98CCAACC18D959E5000A5972 /* LRSettingsViewController.m in Sources */,
+				B8D76BA118E4AC020039E173 /* LRInputViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CDC14618D8C8D300A8DDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CDC15B18D8C8D300A8DDE9 /* LocationReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CDC15218D8C8D300A8DDE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CDC12518D8C8D300A8DDE9 /* LocationReminder */;
+			targetProxy = 98CDC15118D8C8D300A8DDE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98CDC13418D8C8D300A8DDE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CDC13518D8C8D300A8DDE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98CDC15618D8C8D300A8DDE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CDC15718D8C8D300A8DDE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CDC15C18D8C8D300A8DDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98CDC15D18D8C8D300A8DDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CDC15F18D8C8D300A8DDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationReminder/LocationReminder-Prefix.pch";
+				INFOPLIST_FILE = "LocationReminder/LocationReminder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98CDC16018D8C8D300A8DDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationReminder/LocationReminder-Prefix.pch";
+				INFOPLIST_FILE = "LocationReminder/LocationReminder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98CDC16218D8C8D300A8DDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocationReminder.app/LocationReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationReminder/LocationReminder-Prefix.pch";
+				INFOPLIST_FILE = "LocationReminderTests/LocationReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		98CDC16318D8C8D300A8DDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocationReminder.app/LocationReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationReminder/LocationReminder-Prefix.pch";
+				INFOPLIST_FILE = "LocationReminderTests/LocationReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CDC12118D8C8D300A8DDE9 /* Build configuration list for PBXProject "LocationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CDC15C18D8C8D300A8DDE9 /* Debug */,
+				98CDC15D18D8C8D300A8DDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CDC15E18D8C8D300A8DDE9 /* Build configuration list for PBXNativeTarget "LocationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CDC15F18D8C8D300A8DDE9 /* Debug */,
+				98CDC16018D8C8D300A8DDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CDC16118D8C8D300A8DDE9 /* Build configuration list for PBXNativeTarget "LocationReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CDC16218D8C8D300A8DDE9 /* Debug */,
+				98CDC16318D8C8D300A8DDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98CDC14318D8C8D300A8DDE9 /* LocationReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98CDC14418D8C8D300A8DDE9 /* LocationReminder.xcdatamodel */,
+			);
+			currentVersion = 98CDC14418D8C8D300A8DDE9 /* LocationReminder.xcdatamodel */;
+			path = LocationReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98CDC11E18D8C8D300A8DDE9 /* Project object */;
+}

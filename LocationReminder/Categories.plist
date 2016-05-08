@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AirPort</key>
+	<dict>
+		<key>type</key>
+		<string>airport</string>
+		<key>image</key>
+		<string>airport.png</string>
+	</dict>
+	<key>ATM</key>
+	<dict>
+		<key>type</key>
+		<string>atm</string>
+		<key>image</key>
+		<string>atm.png</string>
+	</dict>
+	<key>Bar</key>
+	<dict>
+		<key>type</key>
+		<string>bar</string>
+		<key>image</key>
+		<string>bar.png</string>
+	</dict>
+	<key>Bus Station</key>
+	<dict>
+		<key>type</key>
+		<string>bus_station</string>
+		<key>image</key>
+		<string>bus_station.png</string>
+	</dict>
+	<key>Cafe</key>
+	<dict>
+		<key>type</key>
+		<string>cafe</string>
+		<key>image</key>
+		<string>cafe.png</string>
+	</dict>
+	<key>Car Repair</key>
+	<dict>
+		<key>type</key>
+		<string>car_repair</string>
+		<key>image</key>
+		<string>car_repair.png</string>
+	</dict>
+	<key>Hospital</key>
+	<dict>
+		<key>type</key>
+		<string>hospital</string>
+		<key>image</key>
+		<string>hospital.png</string>
+	</dict>
+	<key>Movie Theater</key>
+	<dict>
+		<key>type</key>
+		<string>movie_theater</string>
+		<key>image</key>
+		<string>movie_theater.png</string>
+	</dict>
+	<key>Park</key>
+	<dict>
+		<key>type</key>
+		<string>park</string>
+		<key>image</key>
+		<string>park.png</string>
+	</dict>
+	<key>Police Station</key>
+	<dict>
+		<key>type</key>
+		<string>police</string>
+		<key>image</key>
+		<string>police.png</string>
+	</dict>
+	<key>Post Office</key>
+	<dict>
+		<key>type</key>
+		<string>post_office</string>
+		<key>image</key>
+		<string>post_office.png</string>
+	</dict>
+	<key>Restaurant</key>
+	<dict>
+		<key>type</key>
+		<string>restaurant</string>
+		<key>image</key>
+		<string>restaurant.png</string>
+	</dict>
+	<key>Shopping Mall</key>
+	<dict>
+		<key>type</key>
+		<string>shopping_mall</string>
+		<key>image</key>
+		<string>shopping_mall.png</string>
+	</dict>
+	<key>Temple</key>
+	<dict>
+		<key>type</key>
+		<string>hindu_temple</string>
+		<key>image</key>
+		<string>temple.png</string>
+	</dict>
+	<key>University</key>
+	<dict>
+		<key>type</key>
+		<string>university</string>
+		<key>image</key>
+		<string>university.png</string>
+	</dict>
+	<key>Zoo</key>
+	<dict>
+		<key>type</key>
+		<string>zoo</string>
+		<key>image</key>
+		<string>zoo.png</string>
+	</dict>
+</dict>
+</plist>
